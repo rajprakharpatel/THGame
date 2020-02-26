@@ -157,15 +157,19 @@ public class Hacker : MonoBehaviour
                         StartCoroutine(DrawFigure("Assets/Figures/Hit.txt"));
                         break;
                     case 2:
+                        _ques = Ques.Homer
                         StartCoroutine(DrawFigure("Assets/Figures/Homer.txt"));
                         break;
                     case 3:
+                        _ques = Ques.Peace
                         StartCoroutine(DrawFigure("Assets/Figures/peace.txt"));
                         break;
                     case 4:
+                        _ques=Ques.Smurfs
                         StartCoroutine(DrawFigure("Assets/Figures/Smurfs.txt"));
                         break;
                     case 5:
+                        _ques=Ques.Sonic
                         StartCoroutine(DrawFigure("Assets/Figures/sonic.txt"));
                         break;
                 }
@@ -178,15 +182,19 @@ public class Hacker : MonoBehaviour
                 switch (rand2)
                 {
                     case 6:
+                        _ques = Ques.BioHaz
                         StartCoroutine(DrawFigure("Assets/Figures/BioHaz.txt"));
                         break;
                     case 7:
+                        _ques = Ques.AtBomb
                         StartCoroutine(DrawFigure("Assets/Figures/AtBombman.txt"));
                         break;
                     case 8:
+                        _ques = Ques.Casper
                         StartCoroutine(DrawFigure("Assets/Figures/casper.txt"));
                         break;
                     case 9:
+                        _ques = Ques.Volks
                         StartCoroutine(DrawFigure("Assets/Figures/Volks.txt"));
                         break;
                 }

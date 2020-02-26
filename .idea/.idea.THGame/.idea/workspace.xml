@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e8b058-3224-4044-ba1e-64bf26c4bd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Hacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hacker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HighScores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HighScores.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/WM2000/Display/Display.cs" root0="FORCE_HIGHLIGHTING" />
@@ -111,7 +108,7 @@
       <workItem from="1582482862106" duration="10277000" />
       <workItem from="1582497914159" duration="7709000" />
       <workItem from="1582626800520" duration="2924000" />
-      <workItem from="1582719285509" duration="2764000" />
+      <workItem from="1582719285509" duration="5055000" />
     </task>
     <servers />
   </component>
@@ -120,7 +117,26 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="585" y="136" key="VCS.ChangeListViewerDialog" timestamp="1582724288477">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="585" y="136" key="VCS.ChangeListViewerDialog/74.0.1462.864@74.0.1462.864" timestamp="1582724288477" />
+    <state x="615" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582723779324">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="615" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/74.0.1462.864@74.0.1462.864" timestamp="1582723779324" />
     <state x="462" y="197" key="run.anything.popup" timestamp="1582719982776">
       <screen x="74" y="0" width="1462" height="864" />
     </state>

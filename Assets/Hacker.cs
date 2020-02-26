@@ -83,15 +83,45 @@ public class Hacker : MonoBehaviour
 
     IEnumerator ShowProgress(int p)
     {
+        Terminal.ClearScreen();
         for (int i = 0; i < p; i++)
         {
-            Terminal.ClearScreen();
+            switch (level)
+            {
+                case 1:
+                    Terminal.WriteLine(" __       _______ ____    ____  _______  __          __  ");
+                    Terminal.WriteLine("|  |     |   ____|\\   \\  /   / |   ____||  |        /_ |"); 
+                    Terminal.WriteLine("|  |     |  |__    \\   \\/   /  |  |__   |  |         | |"); 
+                    Terminal.WriteLine("|  |     |   __|    \\      /   |   __|  |  |         | | ");
+                    Terminal.WriteLine("|  `----.|  |____    \\    /    |  |____ |  `----.    | | ");
+                    Terminal.WriteLine("|_______||_______|    \\__/     |_______||_______|    |_| ");
+                    break;
+                
+                case 2:
+                    Terminal.WriteLine(" __       _______ ____    ____  _______  __          ___   ");
+                    Terminal.WriteLine("|  |     |   ____|\\   \\  /   / |   ____||  |        |__ \\ ");
+                    Terminal.WriteLine("|  |     |  |__    \\   \\/   /  |  |__   |  |           ) | ");
+                    Terminal.WriteLine("|  |     |   __|    \\      /   |   __|  |  |          / /  ");
+                    Terminal.WriteLine("|  `----.|  |____    \\    /    |  |____ |  `----.    / /_  ");
+                    Terminal.WriteLine("|_______||_______|    \\__/     |_______||_______|   |____| ");
+                    break;
+                case 3:
+                    Terminal.WriteLine(" __       _______ ____    ____  _______  __          ____   ");
+                    Terminal.WriteLine("|  |     |   ____|\\   \\  /   / |   ____||  |        |___ \\");  
+                    Terminal.WriteLine("|  |     |  |__    \\   \\/   /  |  |__   |  |          __) |"); 
+                    Terminal.WriteLine("|  |     |   __|    \\      /   |   __|  |  |         |__ <  ");
+                    Terminal.WriteLine("|  `----.|  |____    \\    /    |  |____ |  `----.    ___) | ");
+                    Terminal.WriteLine("|_______||_______|    \\__/     |_______||_______|   |____/  ");
+                    break;
+            }
+
             Terminal.WriteLine(".______   .______        ______     _______ .______       _______     _______.     _______.");
             Terminal.WriteLine("|   _  \\  |   _  \\      /  __  \\   /  _____||   _  \\     |   ____|   /       |    /       |");
             Terminal.WriteLine("|  |_)  | |  |_)  |    |  |  |  | |  |  __  |  |_)  |    |  |__     |   (----`   |   (----`");
             Terminal.WriteLine("|   ___/  |      /     |  |  |  | |  | |_ | |      /     |   __|     \\   \\        \\   \\    ");
             Terminal.WriteLine("|  |      |  |\\  \\----.|  `--\'  | |  |__| | |  |\\  \\----.|  |____.----)   |   .----)   |   ");
             Terminal.WriteLine("| _|      | _| `._____| \\______/   \\______| | _| `._____||_______|_______/    |_______/    ");
+            
             string str = "";
             int j = 0;
             for (j = 0; j < i; j++)
@@ -117,12 +147,13 @@ public class Hacker : MonoBehaviour
         switch (level)
         {
             case 1:
-                int rand = random.Next(1,6);
+                int rand1 = random.Next(1,6);
                 Terminal.ClearScreen();
                 Terminal.WriteLine("First you have to shut down the safety measures \n Identify the logo");
-                switch (rand)
+                switch (rand1)
                 {
                     case 1:
+                        _ques = Ques.HitMan;
                         StartCoroutine(DrawFigure("Assets/Figures/Hit.txt"));
                         break;
                     case 2:
@@ -141,10 +172,10 @@ public class Hacker : MonoBehaviour
                 break;
 
                 case 2:
-                int rand = random.Next(6,10);
+                int rand2 = random.Next(6,10);
                 Terminal.ClearScreen();
                 Terminal.WriteLine("First you have to shut down the safety measures \n Identify the logo");
-                switch (rand)
+                switch (rand2)
                 {
                     case 6:
                         StartCoroutine(DrawFigure("Assets/Figures/BioHaz.txt"));
@@ -162,10 +193,10 @@ public class Hacker : MonoBehaviour
                 break;
 
                 case 3:
-                int rand = random.Next(10,13);
+                int rand3 = random.Next(10,13);
                 Terminal.ClearScreen();
                 Terminal.WriteLine("First you have to shut down the safety measures \n Identify the logo");
-                switch (rand)
+                switch (rand3)
                 {
                     case 10:
                         StartCoroutine(DrawFigure("Assets/Figures/Squidward.txt"));

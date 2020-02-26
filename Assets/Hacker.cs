@@ -1,14 +1,36 @@
 ﻿using System;
+using System.Text;
+using static System.Security.Cryptography.RandomNumberGenerator;
 using System.Collections;
 using System.IO;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using System.Timers;
+using Random = System.Random;
 
 public class Hacker : MonoBehaviour
 {
     int level = 1;
     int tries = 3;
+
+    enum Ques
+    {
+        AtBomb,
+        BioHaz,
+        Casper,
+        GhostBusters,
+        HitMan,
+        Homer,
+        Peace,
+        Popoye,
+        Smurfs,
+        Sonic,
+        SquidWard,
+        Volks
+    }
+
+    private Ques _ques;
 
     enum Screen
     {
@@ -89,20 +111,87 @@ public class Hacker : MonoBehaviour
         }
     }
 
+    void SelectQuestion()
+    {
+        Random random = new Random();
+        switch (level)
+        {
+            case 1:
+                int rand = random.Next(1,6);
+                Terminal.ClearScreen();
+                Terminal.WriteLine("First you have to shut down the safety measures \n Identify the logo");
+                switch (rand)
+                {
+                    case 1:
+                        StartCoroutine(DrawFigure("Assets/Figures/Hit.txt"));
+                        break;
+                    case 2:
+                        StartCoroutine(DrawFigure("Assets/Figures/Homer.txt"));
+                        break;
+                    case 3:
+                        StartCoroutine(DrawFigure("Assets/Figures/peace.txt"));
+                        break;
+                    case 4:
+                        StartCoroutine(DrawFigure("Assets/Figures/Smurfs.txt"));
+                        break;
+                    case 5:
+                        StartCoroutine(DrawFigure("Assets/Figures/sonic.txt"));
+                        break;
+                }
+                break;
+        }
+    }
+
     void CheckAnswer(string input)
     {
         switch (input.ToUpper())
         {
             case "HITMAN":
-                if (level == 1)
+                if (_ques  == Ques.HitMan)
                     Win();
                 break;
             case "PEACE":
-                if (level == 2)
+                if (_ques  == Ques.Peace)
+                    Win();
+                break;
+            case "ATOMIC BOMBERMAN":
+                if (_ques  == Ques.AtBomb)
+                    Win();
+                break;
+            case "CASPER":
+                if (_ques  == Ques.Casper)
+                    Win();
+                break;
+            case "HOMER":
+                if (_ques  == Ques.Homer)
+                    Win();
+                break;
+            case "SONIC THE HEDGEHOG":
+                if (_ques  == Ques.Sonic)
+                    Win();
+                break;
+            case "POPOYE":
+                if (_ques  == Ques.Popoye)
+                    Win();
+                break;
+            case "VOLKSWAGEN":
+                if (_ques  == Ques.Volks)
+                    Win();
+                break;
+            case "SQUIDWARD":
+                if (_ques  == Ques.SquidWard)
+                    Win();
+                break;
+            case "SMURFS":
+                if (_ques  == Ques.Smurfs)
+                    Win();
+                break;
+            case "BIOHAZARD":
+                if (_ques  == Ques.BioHaz)
                     Win();
                 break;
             case "GHOSTBUSTERS":
-                if (level == 3)
+                if (_ques  == Ques.GhostBusters)
                     Win();
                 break;
             default:
@@ -217,7 +306,8 @@ public class Hacker : MonoBehaviour
     {
         previousScreen = currentScreen;
         currentScreen = Screen.Play;
-        if (level == 1)
+        SelectQuestion();
+        /*if (level == 1)
         {
             Terminal.ClearScreen();
             Terminal.WriteLine("First you have to shut down the safety measures \n Identify the logo");
@@ -234,7 +324,7 @@ public class Hacker : MonoBehaviour
         {
             Terminal.ClearScreen();
             StartCoroutine(DrawFigure("Assets/Figures/casper.txt"));
-        }
+        }*/
     }
 
     private static void Delay(int timeDelay)

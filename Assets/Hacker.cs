@@ -13,7 +13,6 @@ public class Hacker : MonoBehaviour
 {
     int level = 1;
     int tries = 3;
-    private int _progress = 0;
 
     enum Ques
     {
@@ -158,19 +157,19 @@ public class Hacker : MonoBehaviour
                         StartCoroutine(DrawFigure("Assets/Figures/Hit.txt"));
                         break;
                     case 2:
-                        _ques = Ques.Homer;
+                        _ques = Ques.Homer
                         StartCoroutine(DrawFigure("Assets/Figures/Homer.txt"));
                         break;
                     case 3:
-                        _ques = Ques.Peace;
+                        _ques = Ques.Peace
                         StartCoroutine(DrawFigure("Assets/Figures/peace.txt"));
                         break;
                     case 4:
-                        _ques = Ques.Smurfs;
+                        _ques=Ques.Smurfs
                         StartCoroutine(DrawFigure("Assets/Figures/Smurfs.txt"));
                         break;
                     case 5:
-                        _ques = Ques.Sonic;
+                        _ques=Ques.Sonic
                         StartCoroutine(DrawFigure("Assets/Figures/sonic.txt"));
                         break;
                 }
@@ -183,19 +182,19 @@ public class Hacker : MonoBehaviour
                 switch (rand2)
                 {
                     case 6:
-                        _ques = Ques.BioHaz;
+                        _ques = Ques.BioHaz
                         StartCoroutine(DrawFigure("Assets/Figures/BioHaz.txt"));
                         break;
                     case 7:
-                        _ques = Ques.AtBomb;
+                        _ques = Ques.AtBomb
                         StartCoroutine(DrawFigure("Assets/Figures/AtBombman.txt"));
                         break;
                     case 8:
-                        _ques = Ques.Casper;
+                        _ques = Ques.Casper
                         StartCoroutine(DrawFigure("Assets/Figures/casper.txt"));
                         break;
                     case 9:
-                        _ques = Ques.Volks;
+                        _ques = Ques.Volks
                         StartCoroutine(DrawFigure("Assets/Figures/Volks.txt"));
                         break;
                 }
@@ -208,15 +207,12 @@ public class Hacker : MonoBehaviour
                 switch (rand3)
                 {
                     case 10:
-                        _ques = Ques.SquidWard;
                         StartCoroutine(DrawFigure("Assets/Figures/Squidward.txt"));
                         break;
                     case 11:
-                        _ques = Ques.Popoye;
                         StartCoroutine(DrawFigure("Assets/Figures/Popoye.txt"));
                         break;
                     case 12:
-                        _ques = Ques.GhostBusters;
                         StartCoroutine(DrawFigure("Assets/Figures/ghostbusters.txt"));
                         break;
                 }
@@ -323,13 +319,9 @@ public class Hacker : MonoBehaviour
                 Terminal.WriteLine(".");
                 Terminal.WriteLine(".");
                 Terminal.WriteLine("Breach the Firewall to access files");
-                _progress += 33;
-                StartCoroutine(ShowProgress(_progress));
-                if (_progress >= 99)
-                {
-                    level++;
-                    tries++;
-                }
+                StartCoroutine(ShowProgress(35));
+                level++;
+                tries++;
                 Invoke(nameof(Play), 10);
                 
                 break;
@@ -338,13 +330,9 @@ public class Hacker : MonoBehaviour
                 Terminal.WriteLine("Firewall Breached");
                 Terminal.WriteLine("Security Breach Detected");
                 Terminal.WriteLine("System Shutdown in progress. . . .");
-                _progress += 50;
-                StartCoroutine(ShowProgress(_progress));
-                if (_progress >= 100)
-                {
-                    level++;
-                    tries+=2;
-                }
+                StartCoroutine(ShowProgress(70));
+                level++;
+                tries += 2;
                 Invoke(nameof(Play), 10);
                 break;
             case 3:

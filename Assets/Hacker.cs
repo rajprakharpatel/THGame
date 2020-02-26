@@ -139,6 +139,45 @@ public class Hacker : MonoBehaviour
                         break;
                 }
                 break;
+
+                case 2:
+                int rand = random.Next(6,10);
+                Terminal.ClearScreen();
+                Terminal.WriteLine("First you have to shut down the safety measures \n Identify the logo");
+                switch (rand)
+                {
+                    case 6:
+                        StartCoroutine(DrawFigure("Assets/Figures/BioHaz.txt"));
+                        break;
+                    case 7:
+                        StartCoroutine(DrawFigure("Assets/Figures/AtBombman.txt"));
+                        break;
+                    case 8:
+                        StartCoroutine(DrawFigure("Assets/Figures/casper.txt"));
+                        break;
+                    case 9:
+                        StartCoroutine(DrawFigure("Assets/Figures/Volks.txt"));
+                        break;
+                }
+                break;
+
+                case 3:
+                int rand = random.Next(10,13);
+                Terminal.ClearScreen();
+                Terminal.WriteLine("First you have to shut down the safety measures \n Identify the logo");
+                switch (rand)
+                {
+                    case 10:
+                        StartCoroutine(DrawFigure("Assets/Figures/Squidward.txt"));
+                        break;
+                    case 11:
+                        StartCoroutine(DrawFigure("Assets/Figures/Popoye.txt"));
+                        break;
+                    case 12:
+                        StartCoroutine(DrawFigure("Assets/Figures/ghostbusters.txt"));
+                        break;
+                }
+                break;
         }
     }
 

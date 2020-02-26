@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\rajpr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rajpr\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_THGame.543337461.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rajpr\Documents\Unity Projects\THGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Figures" t="Include">
+          <e p="AtBombMan.txt" t="Include" />
+          <e p="BioHaz.txt" t="Include" />
+          <e p="casper.txt" t="Include" />
+          <e p="ghostbusters.txt" t="Include" />
+          <e p="Hit.txt" t="Include" />
+          <e p="Homer.txt" t="Include" />
+          <e p="peace.txt" t="Include" />
+          <e p="Popoye.txt" t="Include" />
+          <e p="Smurfs.txt" t="Include" />
+          <e p="sonic.txt" t="Include" />
+          <e p="Squidward.txt" t="Include" />
+          <e p="volks.txt" t="Include" />
+        </e>
+        <e p="Hacker.cs" t="Include" />
+        <e p="HighScores.txt" t="Include" />
+        <e p="WM2000" t="Include">
+          <e p="Display" t="Include">
+            <e p="Display.cs" t="Include" />
+          </e>
+          <e p="Keyboard" t="Include">
+            <e p="Keyboard.cs" t="Include" />
+          </e>
+          <e p="Terminal" t="Include">
+            <e p="DisplayBuffer.cs" t="Include" />
+            <e p="InputBuffer.cs" t="Include" />
+            <e p="Terminal.cs" t="Include" />
+          </e>
+          <e p="Utility.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="THGame.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

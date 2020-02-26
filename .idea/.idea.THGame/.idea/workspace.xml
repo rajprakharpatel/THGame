@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14e8b058-3224-4044-ba1e-64bf26c4bd6e" name="Default Changelist" comment="Shows level in progress">
+    <list default="true" id="14e8b058-3224-4044-ba1e-64bf26c4bd6e" name="Default Changelist" comment="ques progress">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Hacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hacker.cs" afterDir="false" />
     </list>
@@ -108,7 +108,7 @@
       <workItem from="1582482862106" duration="10277000" />
       <workItem from="1582497914159" duration="7709000" />
       <workItem from="1582626800520" duration="2924000" />
-      <workItem from="1582719285509" duration="6979000" />
+      <workItem from="1582719285509" duration="7464000" />
     </task>
     <task id="LOCAL-00001" summary="Shows level in progress">
       <created>1582724725127</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582724725128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ques progress">
+      <created>1582726401406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582726401407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,21 +145,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Shows level in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shows level in progress" />
+    <MESSAGE value="ques progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="ques progress" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="213" y="69" key="MergeDialog" timestamp="1582725969507">
+    <state x="167" y="93" width="1276" height="678" key="DiffContextDialog" timestamp="1582726858602">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="213" y="69" key="MergeDialog/74.0.1462.864@74.0.1462.864" timestamp="1582725969507" />
-    <state x="518" y="148" key="MultipleFileMergeDialog" timestamp="1582725969529">
+    <state x="167" y="93" width="1276" height="678" key="DiffContextDialog/74.0.1462.864@74.0.1462.864" timestamp="1582726858602" />
+    <state x="213" y="69" key="MergeDialog" timestamp="1582726565109">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="518" y="148" key="MultipleFileMergeDialog/74.0.1462.864@74.0.1462.864" timestamp="1582725969529" />
+    <state x="213" y="69" key="MergeDialog/74.0.1462.864@74.0.1462.864" timestamp="1582726565109" />
+    <state x="518" y="148" key="MultipleFileMergeDialog" timestamp="1582726565131">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="518" y="148" key="MultipleFileMergeDialog/74.0.1462.864@74.0.1462.864" timestamp="1582726565131" />
     <state x="585" y="136" key="VCS.ChangeListViewerDialog" timestamp="1582724288477">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="585" y="136" key="VCS.ChangeListViewerDialog/74.0.1462.864@74.0.1462.864" timestamp="1582724288477" />
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2" timestamp="1582726410718">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864@74.0.1462.864" timestamp="1582726410718" />
     <state x="615" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582725999435">
       <screen x="74" y="0" width="1462" height="864" />
     </state>

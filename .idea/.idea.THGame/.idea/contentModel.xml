@@ -10,6 +10,8 @@
           <e p="AtBombMan.txt" t="Include" />
           <e p="BioHaz.txt" t="Include" />
           <e p="casper.txt" t="Include" />
+          <e p="GameOver.txt" t="Include" />
+          <e p="GFinished.txt" t="Include" />
           <e p="ghostbusters.txt" t="Include" />
           <e p="Hit.txt" t="Include" />
           <e p="Homer.txt" t="Include" />

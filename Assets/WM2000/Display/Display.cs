@@ -6,7 +6,7 @@ public class Display : MonoBehaviour
     [SerializeField] Terminal connectedToTerminal;
 
     // TODO calculate these two if possible
-    int charactersWide = 100;
+    int charactersWide = 110;
     int charactersHigh = 25;
 
     Text screenText;

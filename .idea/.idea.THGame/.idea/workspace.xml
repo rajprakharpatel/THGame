@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e8b058-3224-4044-ba1e-64bf26c4bd6e" name="Default Changelist" comment="ques progress">
+      <change afterPath="$PROJECT_DIR$/Assets/Figures/GFinished.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Figures/GFinished.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Figures/GameOver.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Figures/GameOver.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Hacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hacker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HighScores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HighScores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WM2000/Display/Display.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WM2000/Display/Display.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +38,30 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Display/Display.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Keyboard/Keyboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD0EC585-63FA-4A15-87D9-ADB9058D9E90/0c/42e9b53d/VisualElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01844723-50D6-4DA6-84CC-2C9D7FF04AC1/f3/916ad721/EditorApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DDF1B6B8-983D-46CE-8414-6E6E1EF5A65D/16/d662945c/SendMouseEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Hacker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Terminal/DisplayBuffer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Terminal/Terminal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD0EC585-63FA-4A15-87D9-ADB9058D9E90/68/ef693a7b/VisualTreeRepaintUpdater.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18993E5E-1B57-43A2-9546-4A7174E203DB/20/b2ce5a04/Event.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD0EC585-63FA-4A15-87D9-ADB9058D9E90/22/80268d32/VisualTreeUpdater.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01844723-50D6-4DA6-84CC-2C9D7FF04AC1/1a/7789b5fd/EditorCompilationInterface.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Keyboard/Keyboard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/a5/76c18145/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD0EC585-63FA-4A15-87D9-ADB9058D9E90/82/103977a6/Panel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01844723-50D6-4DA6-84CC-2C9D7FF04AC1/c7/64224454/PopupWindowWithoutFocus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DDF1B6B8-983D-46CE-8414-6E6E1EF5A65D/af/458ff8f6/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Terminal/DisplayBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD0EC585-63FA-4A15-87D9-ADB9058D9E90/3c/4d9ae5ee/UIElementsUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Terminal/Terminal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18993E5E-1B57-43A2-9546-4A7174E203DB/ac/02aad280/GUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Display/Display.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3A904788-B0FC-48E7-A7AF-F9B29C37540F/50/f0f4b53c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/WM2000/Terminal/Terminal.cs" />
-        <option value="$PROJECT_DIR$/Assets/WM2000/Display/Display.cs" />
         <option value="$PROJECT_DIR$/Assets/WM2000/Terminal/DisplayBuffer.cs" />
         <option value="$PROJECT_DIR$/Assets/Figures/peace.txt" />
         <option value="$PROJECT_DIR$/Assets/Figures/ghostbusters.txt" />
@@ -52,9 +73,12 @@
         <option value="$PROJECT_DIR$/Assets/Figures/casper.txt" />
         <option value="$PROJECT_DIR$/Assets/Figures/Squidward.txt" />
         <option value="$PROJECT_DIR$/Assets/Figures/Smurfs.txt" />
-        <option value="$PROJECT_DIR$/Assets/HighScores.txt" />
         <option value="$PROJECT_DIR$/Assets/Figures/Hit.txt" />
+        <option value="$PROJECT_DIR$/Assets/Figures/GFinished.txt" />
+        <option value="$PROJECT_DIR$/Assets/Figures/GameOver.txt" />
+        <option value="$PROJECT_DIR$/Assets/HighScores.txt" />
         <option value="$PROJECT_DIR$/Assets/Hacker.cs" />
+        <option value="$PROJECT_DIR$/Assets/WM2000/Display/Display.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +94,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -108,7 +133,12 @@
       <workItem from="1582482862106" duration="10277000" />
       <workItem from="1582497914159" duration="7709000" />
       <workItem from="1582626800520" duration="2924000" />
-      <workItem from="1582719285509" duration="7464000" />
+      <workItem from="1582719285509" duration="8803000" />
+      <workItem from="1582731018401" duration="32000" />
+      <workItem from="1582731092589" duration="37000" />
+      <workItem from="1582731170453" duration="240000" />
+      <workItem from="1582731521797" duration="9264000" />
+      <workItem from="1582808352697" duration="6902000" />
     </task>
     <task id="LOCAL-00001" summary="Shows level in progress">
       <created>1582724725127</created>
@@ -124,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582726401407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ques progress">
+      <created>1582726864786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582726864786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +174,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="me" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -149,10 +203,78 @@
     <option name="LAST_COMMIT_MESSAGE" value="ques progress" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="167" y="93" width="1276" height="678" key="DiffContextDialog" timestamp="1582726858602">
+    <state x="398" y="90" key="#Plugins" timestamp="1582731126400">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="167" y="93" width="1276" height="678" key="DiffContextDialog/74.0.1462.864@74.0.1462.864" timestamp="1582726858602" />
+    <state x="398" y="90" key="#Plugins/74.0.1462.864@74.0.1462.864" timestamp="1582731126400" />
+    <state x="167" y="93" width="1276" height="678" key="DiffContextDialog" timestamp="1582728159903">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="167" y="93" width="1276" height="678" key="DiffContextDialog/74.0.1462.864@74.0.1462.864" timestamp="1582728159903" />
+    <state width="1419" height="277" key="GridCell.Tab.0.bottom" timestamp="1582809938771">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.0.bottom/74.0.1462.864@74.0.1462.864" timestamp="1582809938771" />
+    <state width="1419" height="277" key="GridCell.Tab.0.center" timestamp="1582809938771">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.0.center/74.0.1462.864@74.0.1462.864" timestamp="1582809938771" />
+    <state width="1419" height="277" key="GridCell.Tab.0.left" timestamp="1582809938771">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.0.left/74.0.1462.864@74.0.1462.864" timestamp="1582809938771" />
+    <state width="1419" height="277" key="GridCell.Tab.0.right" timestamp="1582809938771">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.0.right/74.0.1462.864@74.0.1462.864" timestamp="1582809938771" />
+    <state width="1419" height="277" key="GridCell.Tab.1.bottom" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.1.bottom/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.1.center" timestamp="1582809938771">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.1.center/74.0.1462.864@74.0.1462.864" timestamp="1582809938771" />
+    <state width="1419" height="277" key="GridCell.Tab.1.left" timestamp="1582809938771">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.1.left/74.0.1462.864@74.0.1462.864" timestamp="1582809938771" />
+    <state width="1419" height="277" key="GridCell.Tab.1.right" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.1.right/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.2.bottom" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.2.bottom/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.2.center" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.2.center/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.2.left" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.2.left/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.2.right" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.2.right/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.3.bottom" timestamp="1582809938773">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.3.bottom/74.0.1462.864@74.0.1462.864" timestamp="1582809938773" />
+    <state width="1419" height="277" key="GridCell.Tab.3.center" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.3.center/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.3.left" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.3.left/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
+    <state width="1419" height="277" key="GridCell.Tab.3.right" timestamp="1582809938772">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="277" key="GridCell.Tab.3.right/74.0.1462.864@74.0.1462.864" timestamp="1582809938772" />
     <state x="213" y="69" key="MergeDialog" timestamp="1582726565109">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
@@ -169,14 +291,18 @@
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864@74.0.1462.864" timestamp="1582726410718" />
-    <state x="615" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582725999435">
+    <state x="615" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582731588114">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="615" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/74.0.1462.864@74.0.1462.864" timestamp="1582725999435" />
+    <state x="615" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/74.0.1462.864@74.0.1462.864" timestamp="1582731588114" />
     <state x="462" y="197" key="run.anything.popup" timestamp="1582719982776">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="462" y="197" key="run.anything.popup/74.0.1462.864@74.0.1462.864" timestamp="1582719982776" />
+    <state x="462" y="86" width="670" height="676" key="search.everywhere.popup" timestamp="1582810208364">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="462" y="86" width="670" height="676" key="search.everywhere.popup/74.0.1462.864@74.0.1462.864" timestamp="1582810208364" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
